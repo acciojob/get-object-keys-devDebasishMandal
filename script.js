@@ -1,7 +1,12 @@
 //your JS code here. If required.
 let student ={
 	name:"nexus",
-	getKeys (){
-		return object.keys(student);
+	
+}
+student.getKeys= ()=>{
+	let x=[];
+	for(let i in this){
+		x.push(i);
 	}
+	return x;
 }
