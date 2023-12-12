@@ -1,7 +1,7 @@
 //your JS code here. If required.
 let student ={
 	name:"nexus",
-	function getKeys (){
+	getKeys (){
 		return object.keys(student);
 	}
 }
