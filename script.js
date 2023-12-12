@@ -3,10 +3,11 @@ let student ={
 	name:"nexus",
 	
 }
-student.getKeys= ()=>{
+student.getKeys= function(){
 	let x=[];
-	for(let i in this){
+	for(let i in student){
 		x.push(i);
 	}
 	return x;
 }
+// console.log(student.getKeys());
